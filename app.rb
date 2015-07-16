@@ -8,5 +8,5 @@ get '/' do
   for media_item in client.media_search(params[:lat],params[:lon])
     hotspots << {id: media_item[:id], icon: {url: media_item[:images][:low_resolution][:url]}, anchor: {geolocation: {lat: media_item[:location][:latitude], lon: media_item[:location][:longitude]}}}
   end
-  {hotspots: hotspots, layer: params[:layerName]}.to_json
+  {hotspots: hotspots, layer: params[:layerName], errorCode: 0, errorString: :ok}.to_json
 end
