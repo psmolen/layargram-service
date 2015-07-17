@@ -29,7 +29,7 @@ class Hotspots
         actions: 
         [{
           uri: media_item[:link], 
-          label: "View", 
+          label: "View Image", 
           contentType: "text/html"
         }]
       }

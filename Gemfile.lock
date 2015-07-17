@@ -11,7 +11,6 @@ GEM
       faraday_middleware (>= 0.8, < 0.10)
       hashie (>= 0.4.0)
       multi_json (~> 1.0, >= 1.0.3)
-    json (1.8.3)
     multi_json (1.11.2)
     multipart-post (2.0.0)
     rack (1.6.4)
@@ -28,7 +27,6 @@ PLATFORMS
 
 DEPENDENCIES
   instagram
-  json
   sinatra
 
 BUNDLED WITH
